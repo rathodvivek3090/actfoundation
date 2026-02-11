@@ -123,6 +123,35 @@ const EducationProjects = () => {
                         }
                     />
 
+                    <div className="divider"></div>
+
+                    <ProjectCard
+                        title="Akhatro Films"
+                        content={
+                            <p>The ACT foundation believes that many people are doing good work in the field of social work, but
+                                most of them go unnoticed, due to lack of proper outreach and community engagement. In today’s
+                                world, educating people about various social issues and finding varied and reliable information
+                                sources is as critical as ever. Documentary films are an in-depth and informative resource
+                                examining an event, experience which are a perfect platform to create dialogue.</p>
+                        }
+                        hiddenContent={
+                            <>
+                                <p>Akhatro films will encourage all types of organizations working in the field of social work,
+                                    people who want to learn the use of camera for community engagement and students from
+                                    professional courses i.e. Mass communication, photography and videography, film making and
+                                    editing to use minimum technologies to exhibit the social experiments to the society. Project
+                                    focuses on effective and innovative use of cameras as a tool to make the positive impact and to
+                                    connect different group of people, with the objective to make the people aware of various social
+                                    issues, government schemes and provide solutions through multimedia, innovative programs and
+                                    projects of various organizations working in the fields of social work and to identify
+                                    exceptional work done by various social workers and showcase their social experiments.</p>
+                                <p>Akhatro films will be made by various professional film makers, editors and content writers
+                                    having profound work experience at community level who will use minimum technologies to exhibit
+                                    the social experiments to the society by effective and innovative use of cameras as a tool to
+                                    make the positive impact and to connect different group of people.</p>
+                            </>
+                        }
+                    />
                 </div>
             </section>
         </div>

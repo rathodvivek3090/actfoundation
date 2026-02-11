@@ -64,6 +64,25 @@ const Projects = () => {
                             </ul>
                             <Link to="/projects/environment" className="btn btn-secondary">View Details</Link>
                         </div>
+
+                        <div className="divider"></div>
+
+                        <div className="content-block">
+                            <h2>Akhatro Films</h2>
+
+                            <p>ACT Mitra is a project in which alone we can do so little but together we can do so much. As
+                                strong fund-raising plays very important role in implementation and maintenance of long term and
+                                short-term projects and also sustainability of the organization.</p>
+
+
+                            <p>ACT Mitra project gives opportunity to individuals, various clubs, small scale business,
+                                corporates and MNCs to contribute in social cause by joining various social activities of the
+                                organization and become a part of charity events by forming group of people who want to donate,
+                                engaging in various micro funding activities, creating sense of responsibility among people and
+                                to sensitize them about the social issues. All these will be done under guidance and supervision
+                                of various experienced people from management studies and social workers.</p>
+
+                        </div>
                     </div>
 
                     <a href="/#donation-form" className="btn btn-primary btn-lg" style={{ marginTop: '2rem' }}>Support These Programs</a>
