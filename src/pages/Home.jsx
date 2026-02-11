@@ -143,30 +143,30 @@ const Home = () => {
                         <div className="divider"></div>
                     </div>
                     <div className="features-grid">
-                        <div className="feature-card">
+                        <Link to="/projects/education" className="feature-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <i className="fas fa-book-reader"></i>
                             <h3>Education</h3>
                             <p>Improving access to quality education for children and youth from underserved communities
                                 through learning support, digital access, and community awareness.</p>
-                        </div>
-                        <div className="feature-card">
+                        </Link>
+                        <Link to="/projects/health" className="feature-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <i className="fas fa-heartbeat"></i>
                             <h3>Health</h3>
                             <p>Strengthening preventive healthcare, nutrition awareness, and access to basic health
                                 services, particularly for women and children.</p>
-                        </div>
-                        <div className="feature-card">
+                        </Link>
+                        <Link to="/projects/women-empowerment" className="feature-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <i className="fas fa-female"></i>
                             <h3>Women Empowerment</h3>
                             <p>Enabling economic independence, health awareness, and leadership opportunities for women at
                                 the grassroots level.</p>
-                        </div>
-                        <div className="feature-card">
+                        </Link>
+                        <Link to="/projects/environment" className="feature-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <i className="fas fa-tree"></i>
                             <h3>Environment</h3>
                             <p>Promoting environmental responsibility through local action, awareness, and sustainable
                                 community practices.</p>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </section>

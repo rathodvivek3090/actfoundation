@@ -20,7 +20,7 @@ const Contact = () => {
                                 <i className="fas fa-map-marker-alt"></i>
                                 <div>
                                     <h3>Location</h3>
-                                    <p>ACT Foundation, India</p>
+                                    <p>ACT Foundation, Ahmedabad Gujarat India</p>
                                 </div>
                             </div>
                             <div className="info-item">
@@ -37,6 +37,17 @@ const Contact = () => {
                                     <p>+91 8849609020</p>
                                 </div>
                             </div>
+                            <div className="info-item">
+                                <i className="fab fa-whatsapp"></i>
+                                <div>
+                                    <h3>WhatsApp</h3>
+                                    <p>
+                                        <a href="https://wa.me/918849609020" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                            +91 8849609020
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="contact-form-wrapper">
@@ -50,7 +61,7 @@ const Contact = () => {
                                 </div>
                                 <div className="form-group-full">
                                     <input type="text" placeholder="Subject" required />
-                                    3</div>
+                                </div>
                                 <div className="form-group-full">
                                     <textarea placeholder="Your Message" rows="5" required></textarea>
                                 </div>

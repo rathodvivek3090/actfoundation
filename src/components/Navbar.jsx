@@ -59,7 +59,22 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <Link to="/projects" className={isActive('/projects')} onClick={closeMenu}>Projects</Link>
+                    <div className={`dropdown ${openDropdown === 'projects' ? 'active' : ''}`}>
+                        <button
+                            className="dropdown-btn"
+                            style={isDropdownActive(['/projects', '/projects/education', '/projects/health', '/projects/women-empowerment', '/projects/environment'])}
+                            onClick={(e) => toggleDropdown('projects', e)}
+                        >
+                            Projects <ChevronDown size={14} />
+                        </button>
+                        <div className="dropdown-content">
+                            <Link to="/projects" className={isActive('/projects')} onClick={closeMenu}>All Projects</Link>
+                            <Link to="/projects/education" className={isActive('/projects/education')} onClick={closeMenu}>Education Projects</Link>
+                            <Link to="/projects/health" className={isActive('/projects/health')} onClick={closeMenu}>Health Projects</Link>
+                            <Link to="/projects/women-empowerment" className={isActive('/projects/women-empowerment')} onClick={closeMenu}>Women Empowerment</Link>
+                            <Link to="/projects/environment" className={isActive('/projects/environment')} onClick={closeMenu}>Environmental Programs</Link>
+                        </div>
+                    </div>
 
                     <div className={`dropdown ${openDropdown === 'partners' ? 'active' : ''}`}>
                         <button

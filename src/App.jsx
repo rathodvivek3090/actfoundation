@@ -11,6 +11,10 @@ import Compliance from './pages/Compliance';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import Legal from './pages/Legal';
+import EducationProjects from './pages/EducationProjects';
+import HealthProjects from './pages/HealthProjects';
+import WomenEmpowermentProjects from './pages/WomenEmpowermentProjects';
+import EnvironmentalProjects from './pages/EnvironmentalProjects';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
           <Route path="vision" element={<Vision />} />
           <Route path="how-we-work" element={<HowWeWork />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="projects/education" element={<EducationProjects />} />
+          <Route path="projects/health" element={<HealthProjects />} />
+          <Route path="projects/women-empowerment" element={<WomenEmpowermentProjects />} />
+          <Route path="projects/environment" element={<EnvironmentalProjects />} />
           <Route path="csr" element={<CSR />} />
           <Route path="compliance" element={<Compliance />} />
           <Route path="faq" element={<FAQ />} />
