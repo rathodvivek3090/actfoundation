@@ -20,7 +20,7 @@ const Contact = () => {
                                 <i className="fas fa-map-marker-alt"></i>
                                 <div>
                                     <h3>Location</h3>
-                                    <p>ACT Foundation, Ahmedabad Gujarat India</p>
+                                    <p>ACT Foundation, Ahmedabad, India</p>
                                 </div>
                             </div>
                             <div className="info-item">
